@@ -1,0 +1,261 @@
+/* 
+LABORATORY EXERCISE #4
+Your task is to edit this CSS file and design the different web pages. You are NOT allowed to modify/change the HTML files.
+Be creative with your designs. Points will be given based on originality, creativity and overall amazingness.
+*/
+
+/*HOME.HTML*/
+
+head{
+    background-color:#80411E;
+}
+
+body{
+    background-image: linear-gradient(150deg, #80411E, #e4bc84, #80411E);
+    margin:0;
+    padding:0;
+/*    overflow-x:hidden;*/
+    text-align: center;
+}
+
+#title{
+    color: #D2C1B0;
+    text-align: center;
+    font-family: San Serifs;
+    font-size: 75px;
+    background-color:#794028;
+    border-radius:300px;
+}
+
+hr{
+    border: #e4bc84 3px solid;
+}
+
+#welcome{
+    font-size: 25px;
+    color: #D2C1B0;
+    text-align: center;
+    font-family: San Serifs;
+}
+
+.navBar{
+    border: #e4bc84 3px solid;
+    background-color: #e4bc84;
+    text-align: center;
+    font-size: 40px;
+    border-radius:25px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.navigation{
+    color: #80411E;
+    text-decoration:none;
+}
+
+.navigation:hover{
+    color: #e4bc84;
+    background-color:#80411E;
+    text-decoration:none;
+}
+
+ol{
+    text-align: left;
+}
+
+#banner{
+    max-width: 100%;
+    height: 550px;
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+    border: #e4bc84 double 15px;
+}
+
+a{
+    border:#e4bc84 3px solid;
+    border-radius:10px;
+    text-decoration:none;
+    background-color:#e4bc84;
+    color:#80411E;
+}
+
+h2{
+    text-align:center;
+}
+
+.coffee{
+    border: #e4bc84 3px solid;
+    border-radius:30px;
+    Margin:20px 10px 20px 10px;
+    background-color:#e4bc84;
+    color:#80411E;
+    font-size:20px;
+}
+
+#bottomPage{
+    margin-bottom:50px;
+}
+
+#orderCoffee{
+    margin:100px 0 100px 0;
+    outline: 0 !important;
+    background-color: rgba(0,0,0,0);
+    border-radius:25px;
+    font-size: 100px;
+    border:#e4bc84 5px double;
+    background-color:#80411E;
+    color:#D2C1B0;
+    cursor:pointer;
+}
+
+#orderCoffee:hover {
+    background-color: #e4bc84;
+    color:#80411E;
+    border:#80411E 5px double;
+}
+
+.definition{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+footer{
+    font-family: 'Pacifico', cursive;
+    text-align:center;
+    background-color: rgba(128, 65, 30, 0.5);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center; 
+    padding: 10px; 
+}
+
+/*ORDER.HTML*/
+#tagline{
+    font-size:40px;
+    font-family: 'Pacifico', cursive;
+}
+
+.coffee h2{
+    font-size:50px;
+    font-weight:bolder;
+    border: 10px double;
+    border-radius:10px;
+    padding:10px 10px 10px 10px;
+}
+
+.coffee table{
+    text-align: center;
+}
+
+.coffee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.coffee table {
+    margin-top: 20px;
+    width: 80%; 
+}
+
+.coffee table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.coffee table td {
+    padding: 8px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.coffee table .coffeeImg {
+    width: 150px;
+    height: 150px;
+    border: #80411E 20px double;
+    border-radius: 150px;
+    object-fit: cover;
+}
+
+.coffeeTitle{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+}
+
+.coffee table .label {
+    font-weight: bold;
+}
+
+label{
+    font-family: 'Pacifico', cursive;
+}
+
+input{
+    border-radius: 7px;
+    border: #80411E 3px solid;
+    font-family: 'Pacifico', cursive;
+    font-size:20px;
+}
+
+select{
+    border-radius: 10px;
+    color: #80411E ;
+    font-family: 'Pacifico', cursive;
+    font-size:20px;
+    border:#80411E 3px solid;
+}
+
+/*ABOUT PAGE.HTML*/
+
+.imgBanner{
+    border-radius: 700px;
+
+}
+
+.coffee ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.coffeeVideo {
+  width: 500px;
+  height: 400px; /* Adjust the height as needed */
+}
+
+.coffee table td {
+    padding: 8px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.coffee table .teamMember {
+    width: 150px;
+    height: 150px;
+    border: #80411E 20px double;
+    border-radius: 50px;
+}
+
+.coffeeTitle{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+}
+
+.coffee table .label {
+    font-weight: bold;
+    text-align: center;
+}
+
+img{
+    border-radius:50px;
+}
