@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laboratory 5</title>
+    <link rel="stylesheet" type="text/css" href="Lab5.css">
+    <script src="Lab5.js" defer></script>
+</head>
+<body>
+    <div id="top">
+        <h1>LABORATORY 1</h1>
+    </div>
+    <br>
+    <div id="date">
+        <h2>SHOW CURRENT DATE AND TIME</h2>
+        <button id="show">SHOW ME!</button>
+        <p id="currentDateTime">...</p>
+    </div>
+    <br>
+    <br>
+    <div id="student">
+        <h2>STUDENT INPUT</h2>
+        <form>
+            <input type="text" id="name" name="name" placeholder="Name"><br>
+            <input type="number" id="age" name="age" placeholder="Age"><br>
+            <input type="email" id="mail" name="mail" placeholder="Email"><br>
+            <select name="course" id="course" placeholder="Select">
+                <option value="default">Course Selection</option>
+                <option value="1">BA in Food Appreciation</option>
+                <option value="2">BA in Applied Poetry of the Future</option>
+                <option value="3">BA Uncensored Communications</option>
+                <option value="4">BS Computer Repair Shop</option>
+                <option value="5">BS Video Gaming</option>
+                <option value="6">BS Installing and Downloading</option>
+            </select><br>
+            <button id="confirm">Submit</button>
+        </form>
+    </div>
+    <div id="search">
+        <h2>SEARCH FOR STUDENT ID</h2>
+        <label for="sidsearch">Search for SID:</label><br>
+        <input type="number" id="sidsearch" name="sidsearch" placeholder="Student ID">
+        <button id="searchButton">Search ID</button>
+        <p id="searchResult"></p>
+    </div>
+    <br>
+    <div id="displayAll">
+        <h2>DISPLAY ALL STUDENTS</h2>
+        <button id="displayAllButton">Display All Students</button>
+        <ul id="studentList"></ul>
+    </div>
+</body>
+</html>

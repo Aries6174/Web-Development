@@ -1,0 +1,80 @@
+#top{
+	width:100%;
+	text-align: center;
+	background-color: black;
+	margin:0;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom:#ecf2f8 1px solid;
+
+}
+
+body{
+	background-color: #161b22;
+	color: #ecf2f8;
+	font-family: Helvetica;
+	margin:0;
+	padding: 0;
+}
+
+#date{
+	background-color: black;
+	text-align: center;
+	padding: 25px 0 25px 0;
+	margin: 25px 250px 25px 250px;
+	border-radius: 25px;
+	box-shadow: none;
+}
+
+#show, #confirm, #searchButton, #displayAllButton{
+	background-color:rgba(0,0,0,0);
+	color: #ecf2f8;
+	cursor: pointer;
+	border: #ecf2f8 1px solid;
+	border-radius: 10px;
+	padding:5px 10px 5px 10px;
+}
+
+#show:hover, #confirm:hover, #searchButton:hover, #displayAllButton:hover{
+	background-color:rgba(64, 64, 64, 80);
+	color: #ecf2f8;
+	cursor: pointer;
+	border: #ecf2f8 1px solid;
+	border-radius: 10px;
+	padding:5px 10px 5px 10px;
+}
+
+#student{
+	background-color: black;
+	text-align: center;
+	padding: 25px 0 25px 0;
+	margin: 25px 250px 25px 250px;
+	border-radius: 25px;
+	box-shadow: none;
+}
+
+input, select{
+	border-radius: 5px;
+	padding:5px 20px 5px 5px;
+	margin:10px;
+	background-color:;
+
+}
+
+#search{
+	background-color: black;
+	text-align: center;
+	padding: 50px 0 50px 0;
+	margin: 25px 250px 25px 250px;
+	border-radius: 25px;
+	box-shadow: none;
+}
+
+#displayAll{
+	background-color: black;
+	text-align: center;
+	padding: 50px 0 50px 0;
+	margin: 25px 250px 25px 250px;
+	border-radius: 25px;
+	box-shadow: none;
+}

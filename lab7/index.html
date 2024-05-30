@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Now!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>User Registration Form</h1>
+  <form id="registrationForm" action="form.php" method="post">
+    <label for="name">Name: </label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="age">Age: </label>
+    <input type="number" id="age" name="age" required><br><br>
+
+    <label for="email">Email: </label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="course">Course: </label>
+    <input type="text" id="course" name="course" required><br><br>
+
+    <label for="year">Year Level: </label>
+    <input type="radio" id="year1" name="year" value="1" required> 1st
+    <input type="radio" id="year2" name="year" value="2"> 2nd
+    <input type="radio" id="year3" name="year" value="3"> 3rd
+    <input type="radio" id="year4" name="year" value="4"> 4th
+    <input type="radio" id="yearN" name="year" value="N"> Nth<br><br>
+
+    <label for="graduation_status">Graduating: </label>
+    <input type="radio" id="graduating" name="graduation_status" value="yes" required> Yes
+    <input type="radio" id="not_graduating" name="graduation_status" value="no"> No<br><br>
+
+    <label for="image">Image: </label><br>
+    <input type="radio" id="avatar1" name="image" value="avatar1.png"><img src="avatar1.png" alt="Avatar 1" style="height: 100px; width:100px;">
+    <input type="radio" id="avatar2" name="image" value="avatar2.png"><img src="avatar2.png" alt="Avatar 2" style="height: 100px; width:100px;">
+    <br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <?php
+    include 'form.php';
+  ?>
+
+  <div id="userList">
+    <!-- This div will be populated with user data -->
+  </div>
+
+  <button onclick="fetchUserData()">Fetch User Data</button> <!-- Button to trigger fetching user data -->
+
+  <img id="selectedImage" src="" alt="Selected Image"> <!-- Image tag to display selected image -->
+
+  <script src="script.js"></script> <!-- Move the script tag here -->
+</body>
+</html>
